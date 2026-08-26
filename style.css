@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main-box{
+    height:100vh;
+} 
+.nav{
+    height: 150px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: red;
+}
+.box{
+    display: flex;
+    width: 100%;
+}
+.sidebar{
+    height: calc(90vh - 150px);
+    width: 300px;
+    background-color: yellow;
+    top: 150px;
+    position: fixed;
+    left: 0;
+}
+.main{
+    height: calc(90vh - 150px); 
+    width:  calc(100% - 300px);
+    background-color: blueviolet;
+    position: fixed;
+     top: 150px; 
+    left: 300px; 
+    overflow-y:auto;
+}
+.footer{
+     height:calc(100vh - 94vh);
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+     padding: 20px;
+     /* left: 300px; */
+     background-color:rgb(0, 0, 0);
+}
+ 
