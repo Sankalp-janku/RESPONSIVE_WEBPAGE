@@ -105,4 +105,26 @@ margin-top: 20px;
 color: white;
  background-color: black;
 }
- 
+ /* building main */
+.main-row{
+    width: 100%;
+    height: auto;
+    background-color: black;
+ }
+ .card-container{
+    display: flex;
+    justify-content: space-evenly;
+    overflow-x: auto;
+    background-color: black;
+ }
+ .card{
+    margin-left: 10px;
+    text-align: center;
+    border: 1px dotted;
+    font-family:monospace ;
+    background-color: black;
+    padding: 5px;
+ }
+ .card img{
+    height: 200px;
+ }
